@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+   /*<!--   start home part  -->*/
+
+#home {
+    height: auto;
+    background-color: white;
+}
+
+.personal_information {
+    margin-top: 100px;
+}
+
+.header_image {
+    margin-top: -10px;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+      box-shadow: 0px 0px 6px 6px rgba(0,0,0,0.3);
+}
+.header_image img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+  border: 5px solid #222629;
+    transform: scale(1);
+    transition: .6s;
+}
+.header_image img:hover{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+  border: none;
+     transform: scale(1.1);
+    transition: .6s;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.7);
+
+    
+}
+.myname {
+  font-size: 22px;
+    font-weight: bold;
+ font-family: 'Sacramento', cursive;
+}
+.navbar-brand{
+      font-size: 22px;
+    font-weight: bold;
+ font-family: 'Sacramento', cursive;
+}
+/*<!--   end home part  -->*/
+
+/*         <!--   start skill_part  --> */
+
+.skill_part {
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color: #0058F0;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.my_skil h1 {
+    color: black;
+    font-family: fantasy;
+    font-size: 25px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+
+.button {
+    margin-top: 50px;
+    background-color: #0058f0;
+    height: 40px;
+    width: 120px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, 0.5);
+    outline-offset: 0px;
+    text-shadow: none;
+    -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.button:hover {
+    margin-top: 50px;
+    background-color: #0058f0;
+    height: 40px;
+    width: 120px;
+    border: none;
+    color: #fff;
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+.progree_bar {
+    margin-top: 50px;
+    border-radius: 30px;
+}
+.progress-bar-success {
+    background-color: #222629;
+    border-radius: 30px;
+}
+.progress {
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+   outline: none;
+   outline: none;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+}
+                   /*<!--   end skill_part  -->*/
+
+/*<!--   Start protfolio part -->*/
+
+#protfolio {
+    height: auto;
+    background-color: #fff;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.recent_work-start{
+        margin-top: 10px;
+    height: 200px;
+    width: 282px;
+    border-radius: 20px;
+        padding: 10px;
+   box-shadow: inset 0 0 20px rgba(0, 88, 240, 0.7), 0 0 20px rgba(0, 88, 240, 0.4);
+
+    border: 3px solid #000;
+}
+.recent_work-start:hover {
+    margin-top: 10px;
+    height: 200px;
+    width: 282px;
+   box-shadow: inset 0 0 20px rgba(0, 88, 240, 0.7), 0 0 20px rgba(0, 88, 240, 0.4);
+    transition: .5s;
+        padding: 10px;
+}
+.recent_work img {
+    margin-top: 10px;
+    height: 200px;
+    width: 282px;
+        padding: 10px;
+      border-radius: 20px;
+}
+
+.recent_work img:hover {
+    margin-top: 10px;
+    height: 200px;
+    width: 282px;
+   box-shadow: inset 0 0 20px rgba(0, 88, 240, 0.7), 0 0 20px rgba(0, 88, 240, 0.4);
+    transition: .5s;
+        padding: 10px;
+}
+
+.recent_work1 img {
+    margin-top: 10px;
+    width: 472px;
+    height: 200px;
+        padding: 10px;
+      border-radius: 20px;
+}
+
+.recent_work1 img:hover {
+    margin-top: 10px;
+    width: 472px;
+    height: 200px;
+       box-shadow: inset 0 0 20px rgba(0, 88, 240, 0.7), 0 0 20px rgba(0, 88, 240, 0.4);
+        padding: 10px;
+    transition: .5s;
+    transition: .5s;
+}
+
+.recent_work h4 {
+    color: #000;
+    font-family: fantasy;
+}
+
+.recent_work2 img {
+    margin-top: 10px;
+    height: 200px;
+    width: 350px;
+    padding: 10px;
+      border-radius: 20px;
+}
+
+.recent_work2 img:hover {
+    margin-top: 10px;
+    height: 200px;
+    width: 350px;
+ box-shadow: inset 0 0 20px rgba(0, 88, 240, 0.7), 0 0 20px rgba(0, 88, 240, 0.4);
+    padding: 10px;
+   
+    transition: .5s;
+}
+
+.recent_work3 img {
+    margin-top: 10px;
+    height: 200px;
+    width: 377px;
+        padding: 10px;
+      border-radius: 20px;
+}
+
+.recent_work3 img:hover {
+    margin-top: 10px;
+    height: 200px;
+    width: 375px;
+ box-shadow: inset 0 0 20px rgba(0, 88, 240, 0.7), 0 0 20px rgba(0, 88, 240, 0.4);
+    transition: .5s;
+        padding: 10px;
+}
+
+.recent_work4 img {
+    width: 282px;
+    height: 200px;
+    margin-top: 10px;
+        padding: 10px;
+      border-radius: 20px;
+}
+
+.recent_work4 img:hover {
+    width: 282px;
+    height: 200px;
+    margin-top: 10px;
+      box-shadow: inset 0 0 20px rgba(0, 88, 240, 0.7), 0 0 20px rgba(0, 88, 240, 0.4);
+    transition: .5s;
+        padding: 10px;
+}
+
+.recent_work5 img {
+    margin-top: 10px;
+    width: 450px;
+    height: 200px;
+        padding: 10px;
+      border-radius: 20px;
+}
+
+.recent_work5 img:hover {
+    margin-top: 10px;
+    width: 450px;
+    height: 200px;
+     box-shadow: inset 0 0 20px rgba(0, 88, 240, 0.7), 0 0 20px rgba(0, 88, 240, 0.4);
+    transition: .5s;
+        padding: 10px;
+}
+
+/*   button 2*/
+
+.button2 {
+    margin-left: 500px;
+    margin-top: 50px;
+    height: 40px;
+    width: 120px;
+    background-color: #000;
+    border: none;
+    color: white;
+    transform: scale(1);
+    transition: .5s;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.button2:hover {
+    margin-left: 500px;
+    margin-top: 50px;
+    height: 40px;
+    width: 120px;
+    background-color: #000;
+    border: none;
+    color: white;
+        transform: scale(1.1);
+    transition: .5s;
+}
+/*<!--   end protfolio part --> */
+
+                      /* <!--   Start blog part --> */
+
+
+#blog {
+    height: auto;
+    background-color: #0058F0;
+   padding: 50px;
+}
+
+.item img {
+    width: 100%;
+    background-size: cover;
+}
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: 350px;
+}
+
+.carousel-control.left {
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    filter: none;
+}
+
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    filter: none;
+}
+
+.blog_text {
+    margin-top: -20px;
+}
+
+.blog_part2 {
+    margin-top: 50px;
+}
+
+.blog_img_part img {
+    height: 200px;
+    width: 370px;
+    border-radius: 20px;
+}
+
+.blog_overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: 15px;
+    right: 0;
+    height: 100%;
+    width: 98%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+    border-radius: 20px;
+}
+
+.blog_overlay h3 {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid blue;
+    opacity: 1;
+}
+
+.blog_img_part:hover .blog_overlay {
+    opacity: .9;
+    box-shadow: 0px 0px 6px 6px rgba(255,255,255,0.7);
+}
+
+                /* <!--   Start blog part --> */
+
+
+/*  <!--   Start Client/brand side part -->*/
+
+.brandside {
+    background: url(image/sld2-300x163.jpg) repeat fixed 100%;
+    height: auto;
+    padding: 50px;
+    width: 100%;
+}
+
+.brand_icon {
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.brand_icon i {
+    font-size: 70px;
+    color: #fff;
+    opacity: .7;
+}
+
+.brand_text {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: fantasy;
+    letter-spacing: .1em;
+}
+
+.brand_text p {
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    letter-spacing: .1em;
+}
+/* <!--   End Client/brand side part -->*/
+
+
+
+                   /* <!--   Start contact part --> */
+#contact {
+    height: auto;
+    background-color: #0058F0;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.button3 {
+    margin-top: 100px;
+    background-color: #0058f0;
+    height: 40px;
+    width: 120px;
+    border: none;
+    color: #fff;
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, 0.5);
+    outline-offset: 0px;
+    text-shadow: none;
+    -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.button3:hover {
+    margin-top: 100px;
+    background-color: #0058f0;
+    height: 40px;
+    width: 120px;
+    border: none;
+    color: #fff;
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+.contact_img img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.contact_img img:hover {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid #0058f0;
+    transition: .5s;
+}
+/*<!--   End contact part -->*/
+
+
+                      /*<!--   Start footer part -->*/
+.footer {
+    background-color: #000;
+}
+
+.first_footer p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: monospace;
+}
+
+.first_footer h3 {
+    color: #0058F0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.first_footer strong {
+    color: #0058F0;
+    text-transform: uppercase;
+}
+/*<!--   End footer part -->*/
+
+.footer2{
+    background-color: #035AF0;
+    height: 50px;
+    
+}
+.footer2 h5{
+    float: left;
+    margin-top: 20px;
+    color: #F5FF3C;
+}
+.footer_right h5{
+    float: right;
+    margin-top: 20px;
+    color: yellow;
+}
+
